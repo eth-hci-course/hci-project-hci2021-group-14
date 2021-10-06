@@ -3,8 +3,8 @@
   <img height="56" src="img/eth-sip-3l.png">     
 </p>
 
-# [Project name], Group [Group number]
-#### Student 1, Student 2, Student 3, Student 4, Student 5, Student 6
+# Electricity consumption, Group 14
+#### Alexandre Reol, Bernhard Maennel, Luca Kummer, Marco Wiedner, Nikolaos Kaliorakis, Vivian Ziemke
 
 ## Project description
 
