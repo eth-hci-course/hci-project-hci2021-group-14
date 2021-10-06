@@ -14,8 +14,16 @@
 
 ## Ideation
 
+##### How might we?
+
+- inform the user in an intuitive way on his/her electricity consumption?
+- get the information to households on how to reduce the energy usage?
+- make the end-user aware of their passive and "unconscious" electricity uage?
+- incentivize users to invest into making their households more energy efficient?
+- make users reduce their electricity consumptions by social gamification?
+
     TODO
-    
+
 ## Evaluation
 
     TODO
@@ -23,7 +31,7 @@
 ## Low-fidelity Prototype
 
     TODO
-    
+
 ## Mid-fidelity Prototype
 
     TODO
@@ -31,7 +39,7 @@
 ## Hi-fidelity Prototype
 
     TODO
-    
+
 ## User study
 
     TODO
