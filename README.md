@@ -22,6 +22,10 @@
 - incentivize users to invest into making their households more energy efficient?
 - make users reduce their electricity consumptions by social gamification?
 
+##### Brainstorming and Affinity Diagram
+For brainstorming, we first individually tried to come up with ideas for each how-might-we-statement, and then had a meeting where we discussed / combined our ideas and then made an affinity diagram for each how-might-we-statement. You can see the results in the file hci_group_14_affinity_diagram.pdf.
+
+
     TODO
 
 ## Evaluation
