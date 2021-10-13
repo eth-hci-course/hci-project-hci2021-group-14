@@ -31,7 +31,15 @@ For brainstorming, we first individually tried to come up with ideas for each ho
 
 ## Low-fidelity Prototype
 
-    TODO
+##### Idea A
+
+The main idea is to have a virtual pet/plant represent how good (or bad) the energy consumption of the end-user is. Is the user making progress on reducing his/her consumption or is not consuming excessively more than his neighbourhood, friends, etc, so the pet is doing good (represented by a percentage in the prototype). Is the end-user making bad decisions or is consuming "unnecessary" electricity, so his/her pet will not feel well. The "well-being" of the virtual pet is represented on the home screen of the app.
+
+![](https://raw.githubusercontent.com/eth-ait/hci-project-hci2021-group-14/2021/Deliverables/LowFiPrototyping/IdeaA/Storyboard.jpeg)
+
+![](https://raw.githubusercontent.com/eth-ait/hci-project-hci2021-group-14/2021/Deliverables/LowFiPrototyping/IdeaA/Paper_1.jpeg)
+
+![](https://raw.githubusercontent.com/eth-ait/hci-project-hci2021-group-14/2021/Deliverables/LowFiPrototyping/IdeaA/Paper_2.jpeg)
 
 ## Mid-fidelity Prototype
 
