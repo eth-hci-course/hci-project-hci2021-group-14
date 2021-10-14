@@ -58,6 +58,14 @@ The main idea is to have a platform to facilitate people helping each other affo
 ![](/Deliverables/LowFiPrototyping/IdeaB/lenderClient4.jpg)
 ![](/Deliverables/LowFiPrototyping/IdeaB/lenderClient5.jpg)
 
+#### Idea C
+
+![](/Deliverables/LowFiPrototyping/IdeaC/1.png)
+![](/Deliverables/LowFiPrototyping/IdeaC/2.png)
+![](/Deliverables/LowFiPrototyping/IdeaC/3.png)
+![](/Deliverables/LowFiPrototyping/IdeaC/4.png)
+
+
 ## Mid-fidelity Prototype
 
     TODO
