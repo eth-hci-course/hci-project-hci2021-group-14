@@ -68,7 +68,29 @@ The main idea is to have a platform to facilitate people helping each other affo
 
 ## Mid-fidelity Prototype
 
-    TODO
+### Prototype: Electricity Pet
+
+The main idea of this prototype is to link electricity usage with the health of a virtual pet (like tamagochi). The user already has a way to measure electricity consumption via devices like this kit. The idea is to make the problem from a rational calculation to an emotional task and provide the necessary data in a visually appealing way.
+
+The main screen (Fig.1) shows the pet, the Meter that indicates this week’s consumption and the target, the weekly score, and the evolution of electricity consumption. The colors of the pet indicate its health (a.k.a proximity electricity consumption targets). By pressing the “Details” button one can access an overview of how they consumed electricity (Fig.2). The color scale and the circle size indicate the size of impact each device had on this week’s electricity consumption. A bar chart also shows the devices with the same color code in descending order of consumption. The user can tap on the circles to see more details (Fig.3), as well as tips on how to reduce consumption. In all these screens, by pressing the triangle on the top left, the user can navigate to the previous screen. No screen is more than two steps away from the “Home” screen.  From the “Consumption” (Fig.2) the user can set new goals for the upcoming week (Fig.5) by tapping on the “to-do” squares.
+
+Another possible path is pressing the rectangle with the arrow and percentage from the “Home” screen. This will lead the user to the “Achievements” screen (Fig.4). Here the user can see how he performed with respect to the goals they set for themselves, as well as the streak (consecutive weekly participation) they have. From this screen, the user can navigate to the “Set Goals” screen by pressing the “Set New” button.
+
+A secondary feature that is available from the “Home” screen is accessed by tapping on the “Score”. This shows the user a leaderboard of their “friends”, in order to further motivate the user to reduce consumption.
+
+
+### Prototype: Crowdfunding Platform
+
+The idea behind this prototype lies in connecting investors and fundraisers for the task of funding the purchase of new, more efficient, appliances and other energy upgrades. The Fundraisers are people who are aware of their electricity consumption, want to reduce, but currently don’t have the access to the funds for it. Investors are people with an excess of funds that want to help other households reduce their consumption because they are aware that electricity consumption reduction needs a collective approach.
+
+#### Fundraiser’s Side
+
+In Fig 1 one can see the different ongoing projects, and toggle between them with the indicated arrows. The users can also select and start a new project here, by using the provided UI at the bottom of UI. In Fig. 2 one can see the screen when selecting a solution for a new fundraising project. In this example one can choose between different heaters which have their respective cost and electricity savings. Pressing the “i”-Button will lead to further Details about the Project, as one can see the Details in Fig. 4. The user on the Fundrasier Side can also choose between waiting and self-funding the remaining amount to get a better heater. A completed project will lead to the Screen presented in Fig. 3. It shows the completion of the project, where also a graphic about the estimated performance, which means the electricity and money saved and the payment plan appear.
+
+#### Investor’s Side
+
+On the Investors side, Fig. 1 shows a pie chart with an investment portfolio. In the list below the pie chart, one can see the details of the investments and their status. There is also a “Discover” button between the chart and the list, it’s purpose is to enable a Investor exploring new projects. In Fig. 2, one can see new projects with some details. The bar indicates the current funding status while the “learn more” button on the right hand side leads to further details which are shown in Fig. 3. In Fig. 3, the Investor is able to choose the funding amount. The Grey part indicates the proportion of the project already funded, while the yellow part would be the portion the Investor is funding. There are two additional buttons, a “Project Details” and a “Invest Now” button. The first one will lead the user acting as an investor to the Project Details Screen shown in Fig. 5, where one can gain additional knowledge about the project. With the “Invest Now” button, the user can fund the predefined amount to the selected project. After the funding from the investor is done, a dropdown notification (shown in Fig. 4) will appear, afterwards leading the user back to the home screen.
+
 
 ## Hi-fidelity Prototype
 
