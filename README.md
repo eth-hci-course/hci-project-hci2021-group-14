@@ -78,6 +78,8 @@ Another possible path is pressing the rectangle with the arrow and percentage fr
 
 A secondary feature that is available from the “Home” screen is accessed by tapping on the “Score”. This shows the user a leaderboard of their “friends”, in order to further motivate the user to reduce consumption.
 
+![](/Deliverables/MidFiPrototyping/pet_summary.png)
+
 
 ### Prototype: Crowdfunding Platform
 
@@ -87,10 +89,13 @@ The idea behind this prototype lies in connecting investors and fundraisers for 
 
 In Fig 1 one can see the different ongoing projects, and toggle between them with the indicated arrows. The users can also select and start a new project here, by using the provided UI at the bottom of UI. In Fig. 2 one can see the screen when selecting a solution for a new fundraising project. In this example one can choose between different heaters which have their respective cost and electricity savings. Pressing the “i”-Button will lead to further Details about the Project, as one can see the Details in Fig. 4. The user on the Fundrasier Side can also choose between waiting and self-funding the remaining amount to get a better heater. A completed project will lead to the Screen presented in Fig. 3. It shows the completion of the project, where also a graphic about the estimated performance, which means the electricity and money saved and the payment plan appear.
 
+![](/Deliverables/MidFiPrototyping/fundraiser_summary.png)
+
 #### Investor’s Side
 
 On the Investors side, Fig. 1 shows a pie chart with an investment portfolio. In the list below the pie chart, one can see the details of the investments and their status. There is also a “Discover” button between the chart and the list, it’s purpose is to enable a Investor exploring new projects. In Fig. 2, one can see new projects with some details. The bar indicates the current funding status while the “learn more” button on the right hand side leads to further details which are shown in Fig. 3. In Fig. 3, the Investor is able to choose the funding amount. The Grey part indicates the proportion of the project already funded, while the yellow part would be the portion the Investor is funding. There are two additional buttons, a “Project Details” and a “Invest Now” button. The first one will lead the user acting as an investor to the Project Details Screen shown in Fig. 5, where one can gain additional knowledge about the project. With the “Invest Now” button, the user can fund the predefined amount to the selected project. After the funding from the investor is done, a dropdown notification (shown in Fig. 4) will appear, afterwards leading the user back to the home screen.
 
+![](/Deliverables/MidFiPrototyping/investor_summary.png)
 
 ## Hi-fidelity Prototype
 
