@@ -158,7 +158,7 @@ We see the Crowdfunding Platform as the most promising one so far.
 ## Hi-fidelity Prototype
 
 Plan for Hi-Fi prototype:
-![](Deliverables/HighFiPrototype-Preparation/investor_summary_AB_testing.pdf)
+![](/Deliverables/HighFiPrototype-Preparation/investor_summary_AB_testing.pdf)
 
 ## User study
 
