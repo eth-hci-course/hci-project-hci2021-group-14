@@ -37,6 +37,10 @@ The main idea is to have a virtual pet/plant represent how good (or bad) the ene
 
 ![](/Deliverables/LowFiPrototyping/IdeaA/Storyboard.jpeg)
 
+|![alt](/Deliverables/LowFiPrototyping/IdeaA/Paper_1.jpeg) |![alt](/Deliverables/LowFiPrototyping/IdeaA/Paper_2.jpeg)|
+|-|-|
+
+
 ![](/Deliverables/LowFiPrototyping/IdeaA/Paper_1.jpeg)
 
 ![](/Deliverables/LowFiPrototyping/IdeaA/Paper_2.jpeg)
