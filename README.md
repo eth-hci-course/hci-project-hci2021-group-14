@@ -49,15 +49,13 @@ The main idea is to have a platform to facilitate people helping each other affo
 
 
 |![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient1.jpg) |![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient2.jpg)|
-|![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient3.jpg) |![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient4.jpg)|
 |-|-|
+|![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient3.jpg) |![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient4.jpg)|
 
+|![alt](/Deliverables/LowFiPrototyping/IdeaB/lenderClient1.jpg) |![alt](/Deliverables/LowFiPrototyping/IdeaB/lenderClient2.jpg)|![alt](/Deliverables/LowFiPrototyping/IdeaB/lenderClient3.jpg)|
+|-|-|-|
+|![alt](/Deliverables/LowFiPrototyping/IdeaB/lenderClient4.jpg) | ![alt](/Deliverables/LowFiPrototyping/IdeaB/lenderClient5.jpg)
 
-![](/Deliverables/LowFiPrototyping/IdeaB/lenderClient1.jpg)
-![](/Deliverables/LowFiPrototyping/IdeaB/lenderClient2.jpg)
-![](/Deliverables/LowFiPrototyping/IdeaB/lenderClient3.jpg)
-![](/Deliverables/LowFiPrototyping/IdeaB/lenderClient4.jpg)
-![](/Deliverables/LowFiPrototyping/IdeaB/lenderClient5.jpg)
 
 #### Idea C
 
