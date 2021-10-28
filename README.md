@@ -121,6 +121,24 @@ General comments: User 2 said he found the interface to be hard to interpret.
 
 User 3 was confused by the wait button in the heater-page.
 
+#### Crowdfunding Platform - Investor Side
+
+User 1: (Group 8)
+
+User one did not try to understand what the donut chart stands for. He focused on the energy and profit icons, but still was confused on what they mean. He did not try to interact with them. Especially with profit, he said “What do we invest in?”. The breakdown of the projects was understood correctly. The user perceived the bar as the proportion of the project’s proportion that has been already funded.The user quickly understood the project selection screen. He quickly found a project and pressed on the learn more button. 
+In the project details screen he could not find where he can type in the amount he would like to invest. It took some time to figure the slider, and he even said that he would not like a slider, due to lack of accuracy.
+He observed that there was a rating. He trusted the star review system even though he did not now what it was about. He understood that he could interact with the project details button. On the other hand, he did not understand he could interact with the invest now button.
+General comments: Even though he went through the project browsing he does not seem to recall the interface.
+
+User 2: (TA- Velko)
+
+User 2 also seems to not grasp the concept of the investor. He is confused about the donut chart and cannot link it to the breakdown below. In the breakdown, he was able to understand the items that are listed. By clicking on the discover button he understood that this is a potential investment project list. At this point he proposes a potential sorting of the project by ROI, Impact, proximity, environmental factors etc. From this point onwards, he was able to make a payment by pressing the invest now button.
+General comments: User 2 was confused with the dashboard screen. This prompts to make the first contact more intuitive.
+
+User 3:(Group ?)
+
+User 3 interprints the donut chart of the dashboard screen as “how many people were helped” which is incorrect. However he was able to understand what profit is and in the sequel linked the chart with the breakdown bellow. He smoothly clicks towards the projects and read the project details correctly. He is also the only user who presses the information buttons (i). The overall journey seems smooth to him, and was able to understand everything.
+
 
 ## Hi-fidelity Prototype
 
