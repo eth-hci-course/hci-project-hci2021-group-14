@@ -139,7 +139,7 @@ General comments: User 2 said he found the interface to be hard to interpret.
 
 User 3 was confused by the wait button in the heater-page.
 
-#### Pet
+#### Electricity Pet
 
 #### Conclusion
 
