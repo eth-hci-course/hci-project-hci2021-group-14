@@ -41,15 +41,16 @@ The main idea is to have a virtual pet/plant represent how good (or bad) the ene
 |-|-|
 
 
-![](/Deliverables/LowFiPrototyping/IdeaA/Paper_1.jpeg)
-
-![](/Deliverables/LowFiPrototyping/IdeaA/Paper_2.jpeg)
-
 ##### Idea B
 
 The main idea is to have a platform to facilitate people helping each other afford home upgrades which save energy (and potentially money through a lower energy bill) in the long run. To that end, we made a prototype phone-client for both the borrower and the lender.
 
 ![](/Deliverables/LowFiPrototyping/IdeaB/ideaB_storyboard.jpg)
+
+
+|![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient1.jpg) |![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient2.jpg)|![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient3.jpg)|![alt](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient4.jpg)|
+|-|-|-|-|
+
 
 ![](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient1.jpg)
 ![](/Deliverables/LowFiPrototyping/IdeaB/borrowerClient2.jpg)
