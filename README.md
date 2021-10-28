@@ -100,7 +100,7 @@ On the Investors side, Fig. 1 shows a pie chart with an investment portfolio. In
 
 #### Testers
 
-: 02
+Alexandre Reol : 02
 
 Luca Kummer : 05
 
