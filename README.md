@@ -103,9 +103,9 @@ On the Investors side, Fig. 1 shows a pie chart with an investment portfolio. In
 
 : 02
 
-: 05
+Luca Kummer : 05
 
-: 08
+Luca Kummer : 08
 
 #### Crowdfunding Platform - Investor Side
 
