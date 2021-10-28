@@ -107,20 +107,6 @@ On the Investors side, Fig. 1 shows a pie chart with an investment portfolio. In
 
 : 08
 
-#### Crowdfunding Platform - Fundraiser Side
-
-User 1 wanted more information on what he was rated on. He understood the energy consumption metric but was confused as to what the associated costs metric meant and why it was negative. The user assumes the energy savings in the new projects panel is per year instead of over the lifetime of the device, and said he'd prefer to have the annual ennergy savings for each project as well.
-On the heater-page, the user didn't immediatly intuit, what the option bar on the top meant, but did figure it out without our help. When pressing the different option-buttons, he was didn't notice what had changed, leaving him confused. He only seemed to understand how the page-elements related to each other after getting to the end of the page and playing around a bit with the buttons.
-At the end the user mentioned he'd like an option to pay small amounts without the payback scheme.
-General comments: User 1 was confused by some of our metrics for savings and took a while to understand the layout of the heater-page.
-
-User 2 wasn't sure what the ongoing-projects segment meant.
-On the heater-page, the user was confused by what profit meant and thought the profits were for a set timeframe instead of over the device lifetime. It didn't seem immediatly obvious to him that the heater buttons were buttons for the panel below, but he caught on quickly by just trying to click them and seeing what happens. He was confused about "Pay Rest" and "Wait" buttons meant.
-On the funded-page, the user remarked that savings would be a more fitting term than profit.
-General comments: User 2 said he found the interface to be hard to interpret.
-
-User 3 was confused by the wait button in the heater-page.
-
 #### Crowdfunding Platform - Investor Side
 
 User 1: (Group 8)
@@ -138,6 +124,26 @@ General comments: User 2 was confused with the dashboard screen. This prompts to
 User 3:(Group ?)
 
 User 3 interprints the donut chart of the dashboard screen as “how many people were helped” which is incorrect. However he was able to understand what profit is and in the sequel linked the chart with the breakdown bellow. He smoothly clicks towards the projects and read the project details correctly. He is also the only user who presses the information buttons (i). The overall journey seems smooth to him, and was able to understand everything.
+
+#### Crowdfunding Platform - Fundraiser Side
+
+User 1 wanted more information on what he was rated on. He understood the energy consumption metric but was confused as to what the associated costs metric meant and why it was negative. The user assumes the energy savings in the new projects panel is per year instead of over the lifetime of the device, and said he'd prefer to have the annual ennergy savings for each project as well.
+On the heater-page, the user didn't immediatly intuit, what the option bar on the top meant, but did figure it out without our help. When pressing the different option-buttons, he was didn't notice what had changed, leaving him confused. He only seemed to understand how the page-elements related to each other after getting to the end of the page and playing around a bit with the buttons.
+At the end the user mentioned he'd like an option to pay small amounts without the payback scheme.
+General comments: User 1 was confused by some of our metrics for savings and took a while to understand the layout of the heater-page.
+
+User 2 wasn't sure what the ongoing-projects segment meant.
+On the heater-page, the user was confused by what profit meant and thought the profits were for a set timeframe instead of over the device lifetime. It didn't seem immediatly obvious to him that the heater buttons were buttons for the panel below, but he caught on quickly by just trying to click them and seeing what happens. He was confused about "Pay Rest" and "Wait" buttons meant.
+On the funded-page, the user remarked that savings would be a more fitting term than profit.
+General comments: User 2 said he found the interface to be hard to interpret.
+
+User 3 was confused by the wait button in the heater-page.
+
+#### Pet
+
+#### Conclusion
+
+We see the Crowdfunding Platform as the most promising one so far.
 
 
 ## Hi-fidelity Prototype
