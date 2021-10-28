@@ -141,6 +141,16 @@ User 3 was confused by the wait button in the heater-page.
 
 #### Electricity Pet
 
+Feedback 1:
+User 1 was expecting the top windows to be scrollable, so one can see more information than just the last week, maybe something including the overall health of the pet. Also the energy meter at the bottom was easy to understand, it clear that it goes from left to right when more energy is used. But the exceeded target approach was not understandable. He asked what „96%“ means, if above or just 96% of the predefined target. On the achievements page, it was not intuitive why one has to do that and also what the single points actually meant. So we should somehow explain a single achievement, if the user has difficulties to understand it. On the heat-map the feedback was mixed, the main idea is clear, but the colors only confuse, since the energy consumption is already represented by the size of the bubbles. Also one should be able to group the individual devices into groups, for example: lamps, heating, consumer electronics, etc… and last but not least, the leaderboard should be reachable not only via points, since it’s not the first thing that comes into ones mind the user wants to see it.
+
+Feedback 2:
+User 2 found that the electricity heat-map is a good representation for seeing the electricity consumption in ones household. But most of the icons in the prototype were difficult to interpret, also the term exceeding was probably not clearly enough defined. Question like, is exceeding the target a good or a bad thing? occurred. We should probably point the arrow down if we want to emphasize something bad.
+
+Feedback 3:
+Use 3 also found the heat-map/breakdown of the energy consumption into single devices (or also groups) useful and easy to understand. He also suggested that the top energy window should display more than just the current week. But he was also confused about the target which the user predefines. Is there a motivation to set a small target, can someone save too much energy? And most importantly, he wasn’t 	convinced why anyone would save energy for a pet, that hasn’t that much interaction with it. The pet does not visualize the points one achieved well or also how the user is doing, the last one is probably because we didn’t spend much time yet in „animating“ the pet. For the tester, the hole thing just felt too simple.
+
+
 #### Conclusion
 
 We see the Crowdfunding Platform as the most promising one so far.
