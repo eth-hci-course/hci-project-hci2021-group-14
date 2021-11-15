@@ -163,11 +163,11 @@ Plan for Hi-Fi prototype:[see here](/Deliverables/HighFiPrototype-Preparation/in
 
 ### Overall goal and scope of investigation
 
-### Three hypotheses
+### Variables & Hypotheses
 
-### Plan for the data to collect and how
+### What data to collect and how
 
-### Describe apparatus and task
+### Experiment procedure
 
 
 Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_protocol).pdf)
