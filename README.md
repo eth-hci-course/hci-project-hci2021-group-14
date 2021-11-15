@@ -162,6 +162,11 @@ Plan for Hi-Fi prototype:[see here](/Deliverables/HighFiPrototype-Preparation/in
 ## User study
 
 ### Overall goal and scope of investigation
+**What are we investigating, and why?**
+The goal of this study is to find which interface will allow users (investors) to select projects to invest in, in a more efficient way. Finding a project that fits the users investment criteria is critical in actually going through with the investment. Also the project should match the expectation of the investor. For example how likely is it that a certain project is going to happen after the investor invest a certain amount.
+This investigation is based on  user comments received during the testing of the mid-fi prototype. 
+Our app, which matches people who want to crowdsource with investors, relies heavily on investors finding projects that fit their investment criteria. Therefore, we want to find out whether a filtering function is better than a project  recommendations display (horizontal list with larger icons) in the project discovery screen within the app. Therefore, we implemented A/B variants which have a different view of this screen.
+
 
 ### Variables & Hypotheses
 
