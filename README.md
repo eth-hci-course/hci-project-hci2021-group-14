@@ -161,4 +161,13 @@ Plan for Hi-Fi prototype:[see here](/Deliverables/HighFiPrototype-Preparation/in
 
 ## User study
 
-    TODO
+### Overall goal and scope of investigation
+
+### Three hypotheses
+
+### Plan for the data to collect and how
+
+### Describe apparatus and task
+
+
+Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_protocol).pdf)
