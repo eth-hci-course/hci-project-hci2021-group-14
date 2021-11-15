@@ -179,7 +179,8 @@ Our app, which matches people who want to crowdsource with investors, relies hea
 
 ### What data to collect and how
 
-**Data #1:** The time in seconds will be measured for the user to complete the task with a chronometer  
+**Data #1:**  
+The time in seconds will be measured for the user to complete the task with a chronometer  
 **Data #2:**  
 Here the table represents a generic questionnaire entry that allows us to get answers to the question listed below.
 
@@ -212,7 +213,8 @@ In this time you will play the role of the investor looking for a project to inv
 **When and how will you collect data from participant (including demographics and subjective ratings)**  
 Time measurements will be taken, starting at the beginning of the “Trial Phase” and ending when the subject has completed the task.  
 The number of pages the user visits until they complete the task will also be counted to calculate the “lostness” score.  
-SUS scores questionnaire will be filled  immediately after the task with either interface (A or B) is completed. 
+SUS scores questionnaire will be filled  immediately after the task with either interface (A or B) is completed.  
+The Task in our case could be something like "Look for a project that is backed with a investment of 500 CHF, has a ROI of 3% and has a big impact on electricity consumption. The user then has to navigate through the app to find an appropiate project in which the user then has to invest in. It would be also possible to invest in multiple project after one another to extend the task duration while enabeling us to collect more data.
 
 **What are the conditions? How long are the practice trials and what do participants practice?**  
 Necessary material are a smartphone for the subject in which the app will be running, a smartphone or chronometer for time measurements, a tablet for the subject to fill the questionnaire after the tests (or the questionnaire printed), and a pen and paper to count and note the page visits.
