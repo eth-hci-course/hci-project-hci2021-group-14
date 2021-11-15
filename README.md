@@ -169,8 +169,11 @@ Our app, which matches people who want to crowdsource with investors, relies hea
 
 
 ### Variables & Hypotheses
+
 **Hypothesis 1:** There will be no effect of the project selection screen display on the task completion time
+
 **Hypothesis 2:** These will be no effect of the project selection screen display on Usability (SUS score).
+
 **Hypothesis 3:** These will be no effect of the project selection screen display on lostness. (Visited Pages & Clicks)
 
 
