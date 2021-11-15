@@ -179,6 +179,25 @@ Our app, which matches people who want to crowdsource with investors, relies hea
 
 ### What data to collect and how
 
+**Data #1:** The time in seconds will be measured for the user to complete the task with a chronometer  
+**Data #2:**
+
+| Strongly Disagree | ""|"" |"" | Strongly Agree |
+| :| : |: |:| :|
+| 1          | 2         | 3    | 4| 5|
+| O          | O         | O    | O| O|
+
+0. I think that I would like to use this system frequently.
+1. I found the system unnecessarily complex.
+2. I though the system was easy to use.
+3. I think that I would need the support of a technical person to be able to use this system.
+4. I found the various functions in this system were well integrated.
+5. I thought there was too much inconsistency in this system.
+6. I would imagine that most people would learn to use this system very quickly.
+7. I found the system very cumbersome to use.
+8. I felt very confident using the system.
+9. I needed to learn a lot of things before I could get going with this system.
+
 ### Experiment procedure
 
 
