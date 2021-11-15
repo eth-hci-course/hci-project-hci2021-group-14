@@ -199,7 +199,22 @@ Our app, which matches people who want to crowdsource with investors, relies hea
 8. I felt very confident using the system.
 9. I needed to learn a lot of things before I could get going with this system.
 
-### Experiment procedure
+### Experiment procedure  
+**What will you say to the participant when introducing the prototypes / purpose?**  
+Welcome to our user test. Today we will be testing a crowdfunding app. 
+In this app there are two types of users, the fundraisers and the investors. The fundraisers are people who want to make upgrades in their household in order to reduce their electricity consumption (e.g. improve their thermal insulation, buy a more efficient heater, etc), but lack the funds, so they start a project in which they ask for micro-loans from others. Investors are people who would want to support these projects by funding these projects. Once a project is funded, the fundraiser makes the improvement with the accumulated funds, and pays back the investor with interest.
+In this time you will play the role of the investor looking for a project to invest in. We will assume that you already have some criteria for a project you would like to invest in, and you will have to find projects that meet these criteria and invest in them.  
+
+**When and how will you collect data from participant (including demographics and subjective ratings)**  
+Time measurements will be taken, starting at the beginning of the “Trial Phase” and ending when the subject has completed the task.  
+The number of pages the user visits until they complete the task will also be counted to calculate the “lostness” score.  
+SUS scores questionnaire will be filled  immediately after the task with either interface (A or B) is completed. 
+
+**What are the conditions? How long are the practice trials and what do participants practice?**  
+Necessary material are a smartphone for the subject in which the app will be running, a smartphone or chronometer for time measurements, a tablet for the subject to fill the questionnaire after the tests (or the questionnaire printed), and a pen and paper to count and note the page visits.
+The study will last ~15min. The practice trail will be 3 min. The task will take ~1 min to be completed.
+The participant should be seated at a table.
+
 
 
 Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_protocol).pdf)
