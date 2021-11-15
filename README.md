@@ -182,10 +182,11 @@ Our app, which matches people who want to crowdsource with investors, relies hea
 **Data #1:** The time in seconds will be measured for the user to complete the task with a chronometer  
 **Data #2:**
 
-| Strongly Disagree | ""|"" |"" | Strongly Agree |
-| :| : |: |:| :|
-| 1          | 2         | 3    | 4| 5|
-| O          | O         | O    | O| O|
+
+| Strongly Disagree | i | i | i | Strongly Agree |
+| ------------------| -- | -- | -- | ---------------|
+| 1 | 2 | 3 | 4| 5|
+| O | O | O | O| O|
 
 0. I think that I would like to use this system frequently.
 1. I found the system unnecessarily complex.
