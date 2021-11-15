@@ -180,7 +180,8 @@ Our app, which matches people who want to crowdsource with investors, relies hea
 ### What data to collect and how
 
 **Data #1:** The time in seconds will be measured for the user to complete the task with a chronometer  
-**Data #2:**
+**Data #2:**  
+Here the table represents a generic questionnaire entry that allows us to get answers to the question listed below.
 
 
 | Strongly Disagree | i | i | i | Strongly Agree |
@@ -198,6 +199,9 @@ Our app, which matches people who want to crowdsource with investors, relies hea
 7. I found the system very cumbersome to use.
 8. I felt very confident using the system.
 9. I needed to learn a lot of things before I could get going with this system.
+
+**Data #3:**  
+For the last hypothesis we will count an evaluate the number of clicks and the number of (distinc) pages performed/visited by the user in the tasks.
 
 ### Experiment procedure  
 **What will you say to the participant when introducing the prototypes / purpose?**  
