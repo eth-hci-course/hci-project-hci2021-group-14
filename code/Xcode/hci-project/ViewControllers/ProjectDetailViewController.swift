@@ -30,18 +30,7 @@ class ProjectDetailViewController: UIViewController {
         personImage.image = UIImage(named: project!.pictureAssetName)
         personImage.makeRounded()
         nameLabel.text = project?.investorName
-        switch project!.riskStars {
-        case 1.0:
-            ratingLabel.text = "★☆☆☆☆"
-        case 2.0:
-            ratingLabel.text = "★★☆☆☆"
-        case 3.0:
-            ratingLabel.text = "★★★☆☆"
-        case 4.0:
-            ratingLabel.text = "★★★★☆"
-        default:
-            ratingLabel.text = "★★★★★"
-        }
+        ratingLabel.text = DigitToSymbol.getString(bold: "★", light: "☆", value: project!.riskStars)
         investedAmount = Int((project!.wantedFunding - project!.currentFunding)/2)
         slider.isContinuous = true
         slider.minimumValue = 10

@@ -207,7 +207,7 @@ class AvailableProjectsViewController: UIViewController, UITableViewDelegate, UI
             cell.personImage.image = UIImage(named: currentProject.pictureAssetName)
             cell.personImage.makeRounded()
             cell.nameLabel.text = currentProject.investorName
-            cell.fundingText.text = "\(Int(currentProject.currentFunding!))/\(Int(currentProject.wantedFunding!)) CHF funded"
+            cell.fundingText.text = "\(Int(currentProject.currentFunding!)) of \(Int(currentProject.wantedFunding!)) CHF funded"
             cell.progressView.progress = Float(currentProject.currentFunding/currentProject.wantedFunding)
             cell.applianceLabel.text = currentProject.shortDescription
             return cell
@@ -217,9 +217,8 @@ class AvailableProjectsViewController: UIViewController, UITableViewDelegate, UI
             cell.personImage.image = UIImage(named: currentProject.pictureAssetName)
             cell.personImage.makeRounded()
             cell.nameLabel.text = currentProject.investorName
-            
-            //STARS
-            cell.fundingText.text = "\(Int(currentProject.currentFunding!))/\(Int(currentProject.wantedFunding!)) CHF funded"
+            cell.starsLabel.text = DigitToSymbol.getString(bold: "★", light: "☆", value: currentProject.riskStars!)
+            cell.fundingText.text = "\(Int(currentProject.currentFunding!)) of \(Int(currentProject.wantedFunding!)) CHF funded"
             cell.progressView.progress = Float(currentProject.currentFunding/currentProject.wantedFunding)
             cell.applianceLabel.text = currentProject.shortDescription
             cell.roiButton.setTitle("\(currentProject.yearlyROI!*100)%", for: .normal)

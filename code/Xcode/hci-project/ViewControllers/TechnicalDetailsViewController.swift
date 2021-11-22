@@ -27,30 +27,8 @@ class TechnicalDetailsViewController: UIViewController {
         todayConsumptionLabel.text = "\(project!.todaysConsumption!) kWH/year"
         futureInvestmentLabel.text = "\(project!.futureConsumption!) kWH/year"
         aggregatedProductionCost.text = "\(project!.aggregatedProductionCost!) kWH"
-        switch project!.riskStars {
-        case 1.0:
-            riskStarsLabel.text = "★☆☆☆☆"
-        case 2.0:
-            riskStarsLabel.text = "★★☆☆☆"
-        case 3.0:
-            riskStarsLabel.text = "★★★☆☆"
-        case 4.0:
-            riskStarsLabel.text = "★★★★☆"
-        default:
-            riskStarsLabel.text = "★★★★★"
-        }
-        switch project!.investementImpact {
-        case 1.0:
-            investmentImpactLabel.text = "●○○○○"
-        case 2.0:
-            investmentImpactLabel.text = "●●○○○"
-        case 3.0:
-            investmentImpactLabel.text = "●●●○"
-        case 4.0:
-            investmentImpactLabel.text = "●●●●○"
-        default:
-            investmentImpactLabel.text = "●●●●●"
-        }
+        riskStarsLabel.text = DigitToSymbol.getString(bold: "★", light: "☆", value: project!.riskStars)
+        investmentImpactLabel.text = DigitToSymbol.getString(bold: "●", light: "○", value: project!.investementImpact)
         super.viewDidLoad()
     }
     

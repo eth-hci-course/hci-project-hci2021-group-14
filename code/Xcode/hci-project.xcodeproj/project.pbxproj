@@ -19,6 +19,7 @@
 		299E73A527316EA000C61144 /* TechnicalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299E73A427316EA000C61144 /* TechnicalDetailsViewController.swift */; };
 		29BE10AD27463E9E002C7378 /* RemoteTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BE10AC27463E9E002C7378 /* RemoteTimer.swift */; };
 		29D0E2BD2745961F0098AD5B /* AvailableProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0E2BC2745961F0098AD5B /* AvailableProjectsViewController.swift */; };
+		29F2DFE2274C039900A7300E /* DigitToSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F2DFE1274C039900A7300E /* DigitToSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		299E73A427316EA000C61144 /* TechnicalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalDetailsViewController.swift; sourceTree = "<group>"; };
 		29BE10AC27463E9E002C7378 /* RemoteTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTimer.swift; sourceTree = "<group>"; };
 		29D0E2BC2745961F0098AD5B /* AvailableProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableProjectsViewController.swift; sourceTree = "<group>"; };
+		29F2DFE1274C039900A7300E /* DigitToSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitToSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		2980CA18272AF9CC0072E072 /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				29F2DFE1274C039900A7300E /* DigitToSymbol.swift */,
 				293D0C42272AFC93007EC472 /* DemoData.swift */,
 				2980CA1C272AFA590072E072 /* Project.swift */,
 				29BE10AC27463E9E002C7378 /* RemoteTimer.swift */,
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F2DFE2274C039900A7300E /* DigitToSymbol.swift in Sources */,
 				293D0C43272AFC93007EC472 /* DemoData.swift in Sources */,
 				293D0C47272B0E9A007EC472 /* Design.swift in Sources */,
 				293D0C4B272B4260007EC472 /* ProjectDetailViewController.swift in Sources */,
