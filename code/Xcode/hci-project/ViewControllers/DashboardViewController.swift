@@ -29,20 +29,14 @@ class DashboardViewController: UIViewController, UITableViewDelegate, UITableVie
         super.viewDidLoad()
     }
     
-    override var canBecomeFirstResponder: Bool {
-        get {
-            return true
-        }
-    }
-    
     @IBAction func discoverButton(_ sender: Any) {
-        RemoteTimer.start()
         self.performSegue(withIdentifier: "discover", sender: nil)
     }
     
-    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-        if motion == .motionShake {
-            let alert = UIAlertController(title: "A/B testing menu", message: "here you can activate or deactivate A/B testing", preferredStyle: .actionSheet)
+    @IBAction func debugButton(_ sender: Any) {
+        let alert = UIAlertController(title: "Debug menu", message: nil, preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(title: "A/B testing", style: .default, handler: {_ in
+            let alert = UIAlertController(title: "A/B testing", message: nil, preferredStyle: .actionSheet)
             alert.addAction(UIAlertAction(title: "A", style: .default, handler: {_ in
                 UserDefaults.standard.set(false, forKey: "activateABtesting")
             }))
@@ -50,8 +44,13 @@ class DashboardViewController: UIViewController, UITableViewDelegate, UITableVie
                 UserDefaults.standard.set(true, forKey: "activateABtesting")
             }))
             alert.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: nil))
-            present(alert, animated: true, completion: nil)
-        }
+            self.present(alert, animated: true, completion: nil)
+        }))
+        alert.addAction(UIAlertAction(title: "Timer trigger", style: .default, handler: {_ in
+            RemoteTimer.start()
+        }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

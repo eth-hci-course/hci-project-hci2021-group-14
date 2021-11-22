@@ -83,7 +83,6 @@ class ProjectDetailViewController: UIViewController {
     }
     
     @IBAction func investButton(_ sender: Any) {
-        RemoteTimer.stop()
         let dataToPass = ["investorName":"\(self.project!.investorName!)", "amountInvested":"\(self.investedAmount)"]
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "invested"), object: nil, userInfo: dataToPass)
         self.dismiss(animated: true)
