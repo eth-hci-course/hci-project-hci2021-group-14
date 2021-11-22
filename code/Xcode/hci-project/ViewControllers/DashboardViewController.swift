@@ -47,7 +47,15 @@ class DashboardViewController: UIViewController, UITableViewDelegate, UITableVie
             self.present(alert, animated: true, completion: nil)
         }))
         alert.addAction(UIAlertAction(title: "Timer trigger", style: .default, handler: {_ in
-            RemoteTimer.start()
+            let alert = UIAlertController(title: "Timer trigger", message: nil, preferredStyle: .actionSheet)
+            alert.addAction(UIAlertAction(title: "/start", style: .default, handler: {_ in
+                RemoteTimer.start()
+            }))
+            alert.addAction(UIAlertAction(title: "/stop", style: .default, handler: {_ in
+                RemoteTimer.stop()
+            }))
+            alert.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }))
         alert.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: nil))
         present(alert, animated: true, completion: nil)
