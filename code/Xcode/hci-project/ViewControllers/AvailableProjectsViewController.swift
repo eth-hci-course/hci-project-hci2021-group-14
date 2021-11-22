@@ -200,15 +200,32 @@ class AvailableProjectsViewController: UIViewController, UITableViewDelegate, UI
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! AvailableProjectCell
-        let currentProject = filteredList[indexPath.section]
-        cell.personImage.image = UIImage(named: currentProject.pictureAssetName)
-        cell.personImage.makeRounded()
-        cell.nameLabel.text = currentProject.investorName
-        cell.fundingText.text = "\(Int(currentProject.currentFunding!)) CHF out of \(Int(currentProject.wantedFunding!)) CHF"
-        cell.progressView.progress = Float(currentProject.currentFunding/currentProject.wantedFunding)
-        cell.applianceLabel.text = currentProject.shortDescription
-        return cell
+        switch UserDefaults.standard.bool(forKey: "activateABtesting") {
+        case true:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! AvailableProjectCell
+            let currentProject = filteredList[indexPath.section]
+            cell.personImage.image = UIImage(named: currentProject.pictureAssetName)
+            cell.personImage.makeRounded()
+            cell.nameLabel.text = currentProject.investorName
+            cell.fundingText.text = "\(Int(currentProject.currentFunding!))/\(Int(currentProject.wantedFunding!)) CHF funded"
+            cell.progressView.progress = Float(currentProject.currentFunding/currentProject.wantedFunding)
+            cell.applianceLabel.text = currentProject.shortDescription
+            return cell
+        case false:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifierA", for: indexPath) as! AvailableProjectCellA
+            let currentProject = filteredList[indexPath.section]
+            cell.personImage.image = UIImage(named: currentProject.pictureAssetName)
+            cell.personImage.makeRounded()
+            cell.nameLabel.text = currentProject.investorName
+            
+            //STARS
+            cell.fundingText.text = "\(Int(currentProject.currentFunding!))/\(Int(currentProject.wantedFunding!)) CHF funded"
+            cell.progressView.progress = Float(currentProject.currentFunding/currentProject.wantedFunding)
+            cell.applianceLabel.text = currentProject.shortDescription
+            cell.roiButton.setTitle("\(currentProject.yearlyROI!*100)%", for: .normal)
+            cell.lifeTimeSavingButton.setTitle("\(currentProject.lifetimeSavings!) kWh", for: .normal)
+            return cell
+        }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -223,4 +240,15 @@ class AvailableProjectCell: UITableViewCell {
     @IBOutlet var fundingText: UILabel!
     @IBOutlet var progressView: UIProgressView!
     @IBOutlet var applianceLabel: UILabel!
+}
+
+class AvailableProjectCellA: UITableViewCell {
+    @IBOutlet var personImage: UIImageView!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var fundingText: UILabel!
+    @IBOutlet var progressView: UIProgressView!
+    @IBOutlet var starsLabel: UILabel!
+    @IBOutlet var applianceLabel: UILabel!
+    @IBOutlet var roiButton: UIButton!
+    @IBOutlet var lifeTimeSavingButton: UIButton!
 }
