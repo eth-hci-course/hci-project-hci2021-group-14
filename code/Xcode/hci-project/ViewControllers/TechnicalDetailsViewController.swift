@@ -20,6 +20,8 @@ class TechnicalDetailsViewController: UIViewController {
     @IBOutlet var todayConsumptionLabel: UILabel!
     
     override func viewDidLoad() {
+        RemoteTimer.incrementLostness()
+        RemoteTimer.incrementLostness()
         nameLabel.text = project!.name
         descriptionLabel.text = project!.longDescription
         scoreButton.setTitle("\(project!.score!) kWh", for: .normal)

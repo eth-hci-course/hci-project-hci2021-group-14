@@ -30,6 +30,7 @@ class DashboardViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     @IBAction func discoverButton(_ sender: Any) {
+        RemoteTimer.incrementLostness()
         self.performSegue(withIdentifier: "discover", sender: nil)
     }
     
@@ -49,7 +50,18 @@ class DashboardViewController: UIViewController, UITableViewDelegate, UITableVie
         alert.addAction(UIAlertAction(title: "Timer trigger", style: .default, handler: {_ in
             let alert = UIAlertController(title: "Timer trigger", message: nil, preferredStyle: .actionSheet)
             alert.addAction(UIAlertAction(title: "/start", style: .default, handler: {_ in
-                RemoteTimer.start()
+                let alertController = UIAlertController(title: "Name for test", message: "", preferredStyle: .alert)
+                let saveAction = UIAlertAction(title: "Start test", style: .default, handler: { alert -> Void in
+                    let firstTextField = alertController.textFields![0] as UITextField
+                    RemoteTimer.start(name: "\(firstTextField.text!)")
+                })
+                let cancelAction = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
+                alertController.addTextField { (textField : UITextField!) -> Void in
+                    textField.placeholder = "Enter First Name"
+                }
+                alertController.addAction(cancelAction)
+                alertController.addAction(saveAction)
+                self.present(alertController, animated: true, completion: nil)
             }))
             alert.addAction(UIAlertAction(title: "/stop", style: .default, handler: {_ in
                 RemoteTimer.stop()
@@ -70,6 +82,7 @@ class DashboardViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     @objc func showAndCloseNotification(notification: NSNotification) {
+        RemoteTimer.incrementLostness()
         notificationDescription.text = "Thank you for helping \(notification.userInfo!["investorName"]!) with your investment of \(notification.userInfo!["amountInvested"]!) CHF"
         self.notificationView.alpha = 1
         self.notificationView.isHidden =  false

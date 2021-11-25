@@ -26,6 +26,7 @@ class ProjectDetailViewController: UIViewController {
     @IBOutlet var investButton: UIButton!
     
     override func viewDidLoad() {
+        RemoteTimer.incrementLostness()
         nameProjectLabel.text = project?.name
         personImage.image = UIImage(named: project!.pictureAssetName)
         personImage.makeRounded()
@@ -57,10 +58,12 @@ class ProjectDetailViewController: UIViewController {
     }
     
     @IBAction func closeButton(_ sender: Any) {
+        RemoteTimer.incrementLostness()
         self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func ratingHelpButton(_ sender: Any) {
+        RemoteTimer.incrementLostness()
         let alert = UIAlertController(title: "How are stars calculated?", message: "Well... that still need to be written lmao", preferredStyle: .alert) // TODO: write message
         alert.addAction(UIAlertAction(title: "Close", style: .default, handler: nil))
         self.present(alert, animated: true)
@@ -72,6 +75,7 @@ class ProjectDetailViewController: UIViewController {
     }
     
     @IBAction func investButton(_ sender: Any) {
+        RemoteTimer.incrementLostness()
         let dataToPass = ["investorName":"\(self.project!.investorName!)", "amountInvested":"\(self.investedAmount)"]
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "invested"), object: nil, userInfo: dataToPass)
         self.dismiss(animated: true)
