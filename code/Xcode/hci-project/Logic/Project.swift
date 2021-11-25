@@ -62,8 +62,10 @@ enum projectCategory: String {
     case office = "Office"
     case lighting = "Lighting"
     case household = "Household"
+    case heating = "Heating"
+    case insulation = "Insulation"
 }
 
 extension projectCategory {
-    static let allItems: [projectCategory] = [.kitchen, .ac, .office, .lighting, .household]
+    static let allItems: [projectCategory] = [.kitchen, .ac, .office, .lighting, .household, .heating, .insulation]
 }

@@ -339,7 +339,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3NB-dE-ayP">
-                                <rect key="frame" x="20" y="411.33333333333331" width="350" height="45"/>
+                                <rect key="frame" x="20" y="397" width="350" height="45"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary of project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvG-je-Nej">
                                         <rect key="frame" x="92.333333333333329" y="11.666666666666687" width="165.66666666666669" height="21.666666666666671"/>
@@ -356,7 +356,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBw-g3-2Rl">
-                                <rect key="frame" x="20" y="725.33333333333337" width="350" height="35.666666666666629"/>
+                                <rect key="frame" x="20" y="711" width="350" height="45"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="z4x-mD-vPh"/>
@@ -380,7 +380,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="XoD-c6-XPt">
-                                <rect key="frame" x="20" y="456.33333333333326" width="350" height="269"/>
+                                <rect key="frame" x="20" y="442" width="350" height="269"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rl6-Vu-oMl">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="61.333333333333336"/>
@@ -520,7 +520,7 @@
                                 <color key="backgroundColor" systemColor="systemGray3Color"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACM-u7-Ymb">
-                                <rect key="frame" x="20" y="341.33333333333331" width="350" height="50"/>
+                                <rect key="frame" x="20" y="341.33333333333331" width="350" height="35.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="tfj-iJ-udm"/>
                                 </constraints>

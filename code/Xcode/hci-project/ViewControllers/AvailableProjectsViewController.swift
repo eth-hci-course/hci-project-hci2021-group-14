@@ -69,6 +69,18 @@ class AvailableProjectsViewController: UIViewController, UITableViewDelegate, UI
                 self.categoryButton.setTitleColor(UIColor.white, for: .normal)
                 self.categoryButton.setTitle("Household", for: .normal)
                 self.filterList()
+            },
+            UIAction(title: "Heating", image: UIImage(systemName: "thermometer.sun.fill")) { action in
+                self.categoryFilter = .heating
+                self.categoryButton.setTitleColor(UIColor.white, for: .normal)
+                self.categoryButton.setTitle("Heating", for: .normal)
+                self.filterList()
+            },
+            UIAction(title: "Insulation", image: UIImage(systemName: "house.circle")) { action in
+                self.categoryFilter = .insulation
+                self.categoryButton.setTitleColor(UIColor.white, for: .normal)
+                self.categoryButton.setTitle("Insulation", for: .normal)
+                self.filterList()
             }
         ])
         categoryButton.menu = categoryMenu
