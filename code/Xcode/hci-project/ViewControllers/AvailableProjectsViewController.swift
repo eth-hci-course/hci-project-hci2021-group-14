@@ -251,7 +251,7 @@ class AvailableProjectsViewController: UIViewController, UITableViewDelegate, UI
             cell.progressView.progress = Float(currentProject.currentFunding/currentProject.wantedFunding)
             cell.applianceLabel.text = currentProject.shortDescription
             cell.roiButton.setTitle("\(currentProject.yearlyROI!*100)%", for: .normal)
-            cell.lifeTimeSavingButton.setTitle("\(currentProject.lifetimeSavings!) kWh", for: .normal)
+            cell.lifeTimeSavingButton.setTitle("\(currentProject.score!) kWh", for: .normal)
             return cell
         }
     }
