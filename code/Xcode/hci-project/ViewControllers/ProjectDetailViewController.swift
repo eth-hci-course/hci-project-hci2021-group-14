@@ -51,6 +51,13 @@ class ProjectDetailViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        //updateAmount(self.project!)
+        self.investedAmount = Int(textfield.text!) ?? -1
+        view.endEditing(true)
+        super.touchesBegan(touches, with: event)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destinationVC = segue.destination as? TechnicalDetailsViewController {
             destinationVC.project = self.project
