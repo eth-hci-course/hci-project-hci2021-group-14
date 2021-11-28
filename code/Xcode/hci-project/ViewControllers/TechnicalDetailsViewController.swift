@@ -25,7 +25,8 @@ class TechnicalDetailsViewController: UIViewController {
         nameLabel.text = project!.name
         descriptionLabel.text = project!.longDescription
         scoreButton.setTitle("\(project!.score!) kWh", for: .normal)
-        lifetimeInvestmentLabel.text = (project!.lengthInMonths > 12) ? "\(Double(project!.lengthInMonths)/12.0) years" : "\(project!.lengthInMonths!) months"
+        lifetimeInvestmentLabel.text = (project!.lengthInMonths > 12) ? String(format: "%.2f years", (Double(project!.lengthInMonths)/12.0)) : "\(project!.lengthInMonths!) months"
+        
         todayConsumptionLabel.text = "\(project!.todaysConsumption!) kWH/year"
         futureInvestmentLabel.text = "\(project!.futureConsumption!) kWH/year"
         aggregatedProductionCost.text = "\(project!.aggregatedProductionCost!) kWH"
