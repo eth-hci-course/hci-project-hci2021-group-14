@@ -44,7 +44,7 @@ class ProjectDetailViewController: UIViewController {
         lifetimeSavingsLabel.text = "\(project!.score!) kWh"
         wantedFundingLabel.text = "\(project!.wantedFunding!) CHF"
         currentFundingLabel.text = "\(project!.currentFunding!) CHF"
-        roiLabel.text = "\(project!.yearlyROI*100)%"
+        roiLabel.text = String(format: "%.1f %%", project!.yearlyROI*100)
         investButton.clipsToBounds = true
         investButton.layer.cornerRadius = 15
         investButton.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
