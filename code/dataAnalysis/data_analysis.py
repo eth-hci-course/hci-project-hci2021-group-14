@@ -86,6 +86,22 @@ print("B: " + str(statistics.stdev(dataB[2])))
 print()
 
 
+# //--------------------------< Shapiro-Wilk test >--------------------------\\
+
+print("Shapiro-Wilk test on time needed [seconds]:")
+shapiro_test = stats.shapiro(dataA[1])
+print("p-value for A: " + str(shapiro_test.pvalue))
+shapiro_test = stats.shapiro(dataB[1])
+print("p-value for B: " + str(shapiro_test.pvalue))
+print()
+print("Shapiro-Wilk test on lostness factor:")
+shapiro_test = stats.shapiro(dataA[2])
+print("p-value for A: " + str(shapiro_test.pvalue))
+shapiro_test = stats.shapiro(dataB[2])
+print("p-value for B: " + str(shapiro_test.pvalue))
+print()
+
+
 # //--------------------------< debug output >--------------------------\\
 
 print("start test")
