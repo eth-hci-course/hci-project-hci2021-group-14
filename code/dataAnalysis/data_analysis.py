@@ -66,6 +66,26 @@ plt.ylabel('Lostness Factor')
 plt.show()
 
 
+# //--------------------------< simple statistics >--------------------------\\
+print()
+print("mean of time needed [seconds]:")
+print("A: " + str(statistics.mean(dataA[1])))
+print("B: " + str(statistics.mean(dataB[1])))
+print()
+print("mean of lostness factor:")
+print("A: " + str(statistics.mean(dataA[2])))
+print("B: " + str(statistics.mean(dataB[2])))
+print()
+print("standard deviation of time needed [seconds]:")
+print("A: " + str(statistics.stdev(dataA[1])))
+print("B: " + str(statistics.stdev(dataB[1])))
+print()
+print("standard deviation of lostness factor:")
+print("A: " + str(statistics.stdev(dataA[2])))
+print("B: " + str(statistics.stdev(dataB[2])))
+print()
+
+
 # //--------------------------< debug output >--------------------------\\
 
 print("start test")
