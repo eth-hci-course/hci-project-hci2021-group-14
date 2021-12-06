@@ -224,3 +224,6 @@ The participant should be seated at a table.
 
 
 Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_protocol).pdf)
+
+
+## Data Analysis
