@@ -227,7 +227,17 @@ Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_
 
 
 ## Data Analysis
-Here you can see our study results as bar charts, with variant A in blue and variant B in orange:
+
+### Time Needed to Complete Task
+Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
 ![](/Deliverables/Study/Figure_1_time.png)
+
+### Lostness Factor
+Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
 ![](/Deliverables/Study/Figure_2_lostness.png)
+
+### SUS-score
+Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
 ![](/Deliverables/Study/Figure_3_sus.png)
+
+### Overall
