@@ -236,6 +236,7 @@ Here you can see our study result as a bar chart, with variant A in blue and var
 ![](/Deliverables/Study/Figure_1_time.png)
 
 The A variant has a mean of 266 seconds and a standard deviation of 125 seconds.
+
 The B variant has a mean of 156 seconds and a standard deviation of 49.1 seconds.
 
 As the time needed to complete the task is interval data, we first ran a Shapiro-Wilk test (with alpha = 0.05) on each variant, to see if they could reasonably be assumed to be the results of normal distributions. We got a p-value of 0.131 for variant A and a p-value of 0.432 for variant B. Since both values are greater than 0.05, we decided to keep the null-hypothesis that they were the results of normal distributions. We therefore ran a one-sided paired t-test (with alpha = 0.05) with the null hypothesis that A takes the same on average than B and the alternative hypothesis that A takes longer on average than B. Since we got a p-value of 0.0158, which is under 0.05, rejected the null hypothesis and concluded, that variant A takes longer on average than B and thus variant B is superior by this metric.
@@ -246,6 +247,7 @@ Here you can see our study result as a bar chart, with variant A in blue and var
 ![](/Deliverables/Study/Figure_2_lostness.png)
 
 The A variant has a mean of 39.1 and a standard deviation of 31.1.
+
 The B variant has a mean of 32.6 and a standard deviation of 7.95.
 
 
@@ -254,6 +256,7 @@ Here you can see our study result as a bar chart, with variant A in blue and var
 ![](/Deliverables/Study/Figure_3_sus.png)
 
 The A variant has a mean of 59.7 and a standard deviation of 10.3.
+
 The B variant has a mean of 71.9 and a standard deviation of 11.2.
 
 
