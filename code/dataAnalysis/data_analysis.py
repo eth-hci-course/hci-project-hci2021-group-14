@@ -111,7 +111,7 @@ width =0.3
 plt.bar(np.arange(len(dataA[1])), dataA[1], width=width, label='Variant A')
 plt.bar(np.arange(len(dataB[1]))+ width, dataB[1], width=width, label='Variant B')
 plt.title('Time Needed')
-plt.xlabel('Person')
+plt.xlabel('Participant')
 plt.ylabel('Seconds')
 plt.legend()
 plt.show()
@@ -119,7 +119,7 @@ plt.show()
 plt.title('Lostness')
 plt.bar(np.arange(len(dataA[2])), dataA[2], width=width, label='Variant A')
 plt.bar(np.arange(len(dataB[2]))+ width, dataB[2], width=width, label='Variant B')
-plt.xlabel('Person')
+plt.xlabel('Participant')
 plt.ylabel('Lostness Factor')
 plt.legend()
 plt.show()
@@ -128,14 +128,13 @@ plt.show()
 plt.title('SUS')
 plt.bar(np.arange(len(sus_dataA[11])), sus_dataA[11], width=width, label='Variant A')
 plt.bar(np.arange(len(sus_dataB[11]))+ width, sus_dataB[11], width=width,label='Variant B')
-plt.xlabel('Person')
+plt.xlabel('Participant')
 plt.ylabel('SUS-score')
 plt.legend()
 plt.show()
 
 
 # //--------------------------< simple statistics >--------------------------\\
-
 print()
 print("mean of time needed [seconds]:")
 print("A: " + str(statistics.mean(dataA[1])))
@@ -178,12 +177,34 @@ print("p-value for A: " + str(shapiro_test.pvalue) + ";   reject H_0: " + str(sh
 shapiro_test = stats.shapiro(dataB[2])
 print("p-value for B: " + str(shapiro_test.pvalue) + ";   reject H_0: " + str(shapiro_test.pvalue <= 0.05))
 print()
+print("Shapiro-Wilk test on SUS-score:")
+shapiro_test = stats.shapiro(sus_dataA[11])
+print("p-value for A: " + str(shapiro_test.pvalue) + ";   reject H_0: " + str(shapiro_test.pvalue <= 0.05))
+shapiro_test = stats.shapiro(sus_dataB[11])
+print("p-value for B: " + str(shapiro_test.pvalue) + ";   reject H_0: " + str(shapiro_test.pvalue <= 0.05))
+print()
 
 
 # //--------------------------< Paired t-test on time needed >--------------------------\\
 
-print("Paired t-test on time needed:")
+print("One-sided paired t-test on time needed:")
 t_test = stats.ttest_rel(dataA[1], dataB[1], nan_policy='propagate', alternative='greater')
+print("p-value: " + str(t_test.pvalue) + ";   reject H_0: " + str(t_test.pvalue <= 0.05))
+print()
+print("Two-sided paired t-test on time needed:")
+t_test = stats.ttest_rel(dataA[1], dataB[1], nan_policy='propagate', alternative='two-sided')
+print("p-value: " + str(t_test.pvalue) + ";   reject H_0: " + str(t_test.pvalue <= 0.05))
+print()
+
+
+# //--------------------------< Paired t-test on SUS-score >--------------------------\\
+
+print("One-sided paired t-test on SUS-score:")
+t_test = stats.ttest_rel(sus_dataA[11], sus_dataB[11], nan_policy='propagate', alternative='less')
+print("p-value: " + str(t_test.pvalue) + ";   reject H_0: " + str(t_test.pvalue <= 0.05))
+print()
+print("Two-sided paired t-test on SUS-score:")
+t_test = stats.ttest_rel(sus_dataA[11], sus_dataB[11], nan_policy='propagate', alternative='two-sided')
 print("p-value: " + str(t_test.pvalue) + ";   reject H_0: " + str(t_test.pvalue <= 0.05))
 print()
 
@@ -206,6 +227,5 @@ print()
 
 # //--------------------------< debug output >--------------------------\\
 
-print("start test")
-
-print("end test")
+#print("start test")
+#print("end test")

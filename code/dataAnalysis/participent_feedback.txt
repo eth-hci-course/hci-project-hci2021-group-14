@@ -1,0 +1,112 @@
+Pid:12
+A
+Why do you like/not like this version of the app?
+No filters, after Investment there is no summary of the investment, rather you instantly return to the main screen, different colors using for different attributs to distinguish different projects (categories). TableView Layout was nice to look at. Amount of information shown was well balanced. Homescreen. Summary at the beginnen. Information about th metrics (small circles with i).
+How do you you find the overall idea? Would you use an app like this?
+Nice idea to save electricity by investing, but not especially of my interest in general (investing). Connection between saving electricity and investing is not obvious.
+
+Pid:12
+B
+Why do you like/not like this version of the app?
+filter is nice to use, what does max price refer to, layout was worse no information on the table view, ROI isn't visible instantly when searching for a project, Filter and detailed attributes of project (combination), Button in "Technical details" aren't usable (don't react),   same as in version A, investment is not satisfying.
+How do you you find the overall idea? Would you use an app like this?
+same as in version A
+
+Pid:13
+B
+Why do you like/not like this version of the app?
+I would like the filter to also show duration and lifetime saving. The min/max filter function confused me a bit. I greatlz liked the general layout.
+How do you you find the overall idea? Would you use an app like this?
+I like the idea a lot as it provides an easy and entertaining waz to help increase energy consumption awareness and addresses an important climate challenge
+
+Pid:13
+A
+Why do you like/not like this version of the app?
+I like the short overview of risk, ROI, etc. in the project list but I am greatly missing a filter / sorting function.
+How do you you find the overall idea? Would you use an app like this?
+same
+
+Pid:14
+A
+Why do you like/not like this version of the app?
+in order to invest I want to know more about the risk, the UI/UX is still very raw
+How do you you find the overall idea? Would you use an app like this?
+Idea is good and could be applied to more sectors.I would use an app like this after I have a risk assessment on the thematic
+
+Pid:14
+B
+Why do you like/not like this version of the app?
+- button asking if I am sure that I want to invest after clicking on it and how much
+- Risk level + return should be instantly visible the rest is not so much important for me
+- min and max are also not important to me. if they are related to risk they should be integrated in the risk formula => recommend risk+return+category in the selction
+How do you you find the overall idea? Would you use an app like this?
+great
+
+Pid:15
+B
+Why do you like/not like this version of the app?
+Easy to use and nice but I dont find the investment domain very interesting
+How do you you find the overall idea? Would you use an app like this?
+I like the overall idea yes I might use a app like this for an idea that I find interesting and have some knowledge about the domain
+
+Pid:15
+A
+Why do you like/not like this version of the app?
+I did not like having to scoll down to find what I was looking for 
+How do you you find the overall idea? Would you use an app like this?
+
+
+Pid:16
+A
+Why do you like/not like this version of the app?
+Filter tool would be verz useful, or sort bye
+How do you you find the overall idea? Would you use an app like this?
+I like the overall idea, but i dont think that I would use it often
+
+Pid:16
+B
+Why do you like/not like this version of the app?
+I was missing the relevant information on the investment cards after the filter was applied, this required me to click on each card to see if it corresponded to the one i was looking for
+How do you you find the overall idea? Would you use an app like this?
+
+
+Pid:17
+B
+Why do you like/not like this version of the app?
+Version is good, might need to add other filters and add a feature that makes the user confirm or verify the investment
+How do you you find the overall idea? Would you use an app like this?
+Good idea, innovative, I would use this as it is simple to use, and the user experience is simple
+
+Pid:17
+A
+Why do you like/not like this version of the app?
+I missed the filter function , I would have liked to have better overview of all the projects, where you can see more projects at once
+How do you you find the overall idea? Would you use an app like this?
+
+
+Pid:18
+A
+Why do you like/not like this version of the app?
+Button or ares to click were not clear, project weren't easy to distinguish, more colors or symbols to differentiate the investment impact
+How do you you find the overall idea? Would you use an app like this?
+idea is good, hopefully more solutions to solve the problem of electricity consumption
+
+Pid:18
+B
+Why do you like/not like this version of the app?
+filtering is essential, fewer results to scroll through...
+How do you you find the overall idea? Would you use an app like this?
+
+
+Pid:19
+B
+Why do you like/not like this version of the app?
+well structured menus, filter were not optimal, help button for the filter buttons, filters with price range were fixed so no additional error when entering the numbers
+How do you you find the overall idea? Would you use an app like this?
+the idea is nice, but hard to find actual customers who are ready to invest. Diffiult to distinguish between actual savings and only small savings that don't have a big impact.
+
+Pid:19
+A
+Why do you like/not like this version of the app?
+sorting the listings to a specific attribute of the project (sort by desc. ROI), fast judgemont of the overall project is possible with the larger template, display of the attributes is well-done, 
+How do you you find the overall idea? Would you use an app like this?

@@ -226,4 +226,44 @@ The participant should be seated at a table.
 Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_protocol).pdf)
 
 
+
 ## Data Analysis
+
+(For the sake of readability the result-numbers are rounded to 3 significant figures, the more excact numbers can be found [here](/code/dataAnalysis/console_output.txt).)
+
+### Time Needed to Complete Task
+Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
+![](/code/dataAnalysis/Figure_1_time.png)
+
+The A variant has a mean of 266 seconds and a standard deviation of 125 seconds.
+
+The B variant has a mean of 156 seconds and a standard deviation of 49.1 seconds.
+
+As the time needed to complete the task is interval data, we first ran a Shapiro-Wilk test (with alpha = 0.05) on each variant, to see if they could reasonably be assumed to be the results of normal distributions. We got a p-value of 0.131 for variant A and a p-value of 0.432 for variant B. Since both values are greater than 0.05, we decided to keep the null-hypothesis that they were the results of normal distributions. We therefore ran a one-sided paired t-test (with alpha = 0.05) with the null hypothesis that A takes the same time in expectation as B and the alternative hypothesis that A takes longer in expectation than B. Since we got a p-value of 0.0158, which is under 0.05, we rejected the null hypothesis and concluded, that variant A takes longer in expectation than B and thus variant B is superior by this metric.
+
+
+### Lostness Factor
+Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
+![](/code/dataAnalysis/Figure_2_lostness.png)
+
+The A variant has a mean of 39.1 and a standard deviation of 31.1.
+
+The B variant has a mean of 32.6 and a standard deviation of 7.95.
+
+As the lostness factor is interval data, we first ran a Shapiro-Wilk test (with alpha = 0.05) on each variant, to see if they could reasonably be assumed to be the results of normal distributions. We got a p-value of 0.00134 for variant A and a p-value of 0.0316 for variant B. Since both values are less than 0.05, we decided to reject the null-hypothesis that they were the results of normal distributions. We therefore ran Wilcoxon signed rank test (with alpha = 0.05) with the null hypothesis that A has the same expected lostness factor as B and the alternative hypothesis that A has a different expected lostness factor than B. Since we got a p-value of 0.945, which is over 0.05, we failed to reject the null hypothesis and concluded, that our study didn't provide a statistically significant difference between A and B in this metric.
+
+
+### SUS-score
+Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
+![](/code/dataAnalysis/Figure_3_sus.png)
+
+The A variant has a mean of 59.7 and a standard deviation of 10.3.
+
+The B variant has a mean of 71.9 and a standard deviation of 11.2.
+
+While the SUS-score obtained from ordinal data, since it computes scores from several Likert scale reports, it can be treated as interval data. Therefore we first ran a Shapiro-Wilk test (with alpha = 0.05) on each variant, to see if they could reasonably be assumed to be the results of normal distributions. We got a p-value of 0.108 for variant A and a p-value of 0.502 for variant B. Since both values are greater than 0.05, we decided to keep the null-hypothesis that they were the results of normal distributions. We therefore ran a one-sided paired t-test (with alpha = 0.05) with the null hypothesis that A has the same expected SUS-score as B and the alternative hypothesis that A has a lower expected SUS-score than B. Since we got a p-value of 0.00899, which is under 0.05, we rejected the null hypothesis and concluded, that variant A has a lower expected SUS-score than B and thus variant B is superior by this metric.
+
+
+### Summary and Qualitative Feedback
+
+Since variant B turned out to be superior in time taken and SUS-score, and the result for the lostness factor was inconclusive, variant B seems to have preformed better overall. The qualitative feedback seems to confirm this with participants saying they had to waste more time scrolling in variant A and that they really missed having a filtering function in A. It was also suggested that it might be good to have a combination of both approaches.
