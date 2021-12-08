@@ -228,9 +228,17 @@ Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_
 
 ## Data Analysis
 
+(For the sake of readability, the result-numbers are rounded to 3 signifacant figures, the more excact numbers can be found [here](/Deliverables/Study/console_output.txt))
+
 ### Time Needed to Complete Task
 Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
 ![](/Deliverables/Study/Figure_1_time.png)
+
+The A variant has a mean of about 266 seconds and a standard deviation of about 125 seconds.
+The B variant has a mean of about 156 seconds and a standard deviation of about 49.1 seconds.
+
+As the time needed to complete the task is interval data, we first ran a Shapiro-Wilk test (with alpha = 0.05) on each variant, to see if they could reasonably be assumed to be the result of a normal distribution. We got a p-value of 0.131
+
 
 ### Lostness Factor
 Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
