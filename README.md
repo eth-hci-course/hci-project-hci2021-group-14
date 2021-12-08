@@ -229,7 +229,7 @@ Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_
 
 ## Data Analysis
 
-(For the sake of readability the result-numbers are rounded to 3 signifacant figures, the more excact numbers can be found [here](/code/dataAnalysis/console_output.txt).)
+(For the sake of readability the result-numbers are rounded to 3 significant figures, the more excact numbers can be found [here](/code/dataAnalysis/console_output.txt).)
 
 ### Time Needed to Complete Task
 Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
