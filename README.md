@@ -228,6 +228,6 @@ Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_
 
 ## Data Analysis
 
-![](/Deliverables/Study/figure_1_time.png)
+![](/Deliverables/Study/Figure_1_time.png)
 ![](/Deliverables/MidFiPrototyping/investor_summary.png)
 ![](/Deliverables/MidFiPrototyping/investor_summary.png)
