@@ -227,7 +227,7 @@ Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_
 
 
 ## Data Analysis
-
+Here you can see our study results as bar charts, with variant A in blue and variant B in orange:
 ![](/Deliverables/Study/Figure_1_time.png)
 ![](/Deliverables/Study/Figure_2_lostness.png)
 ![](/Deliverables/Study/Figure_3_sus.png)
