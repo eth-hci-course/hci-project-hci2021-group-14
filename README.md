@@ -229,11 +229,11 @@ Preliminary protocol:[see here](/Deliverables/Study/Preliminary_protocol_(study_
 
 ## Data Analysis
 
-(For the sake of readability the result-numbers are rounded to 3 signifacant figures, the more excact numbers can be found [here](/Deliverables/Study/console_output.txt).)
+(For the sake of readability the result-numbers are rounded to 3 signifacant figures, the more excact numbers can be found [here](/code/dataAnalysis/console_output.txt).)
 
 ### Time Needed to Complete Task
 Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
-![](/Deliverables/Study/Figure_1_time.png)
+![](/code/dataAnalysis/Figure_1_time.png)
 
 The A variant has a mean of 266 seconds and a standard deviation of 125 seconds.
 
@@ -244,7 +244,7 @@ As the time needed to complete the task is interval data, we first ran a Shapiro
 
 ### Lostness Factor
 Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
-![](/Deliverables/Study/Figure_2_lostness.png)
+![](/code/dataAnalysis/Figure_2_lostness.png)
 
 The A variant has a mean of 39.1 and a standard deviation of 31.1.
 
@@ -255,7 +255,7 @@ As the lostness factor is interval data, we first ran a Shapiro-Wilk test (with 
 
 ### SUS-score
 Here you can see our study result as a bar chart, with variant A in blue and variant B in orange:
-![](/Deliverables/Study/Figure_3_sus.png)
+![](/code/dataAnalysis/Figure_3_sus.png)
 
 The A variant has a mean of 59.7 and a standard deviation of 10.3.
 
