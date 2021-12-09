@@ -108,8 +108,8 @@ for i in range(len(other_data[0])):
 
 width =0.3
 
-plt.bar(np.arange(len(dataA[1])), dataA[1], width=width, label='Variant A')
-plt.bar(np.arange(len(dataB[1]))+ width, dataB[1], width=width, label='Variant B')
+plt.bar(np.arange(len(dataA[1])), dataA[1], width=width, label='Variant No filter (A)')
+plt.bar(np.arange(len(dataB[1]))+ width, dataB[1], width=width, label='Variant filter (B)')
 plt.title('Time Needed')
 plt.xlabel('Participant')
 plt.ylabel('Seconds')
@@ -117,8 +117,8 @@ plt.legend()
 plt.show()
 
 plt.title('Lostness')
-plt.bar(np.arange(len(dataA[2])), dataA[2], width=width, label='Variant A')
-plt.bar(np.arange(len(dataB[2]))+ width, dataB[2], width=width, label='Variant B')
+plt.bar(np.arange(len(dataA[2])), dataA[2], width=width, label='Variant No filter (A)')
+plt.bar(np.arange(len(dataB[2]))+ width, dataB[2], width=width, label='Variant filter (B)')
 plt.xlabel('Participant')
 plt.ylabel('Lostness Factor')
 plt.legend()
@@ -126,8 +126,8 @@ plt.show()
 
 # for SUS data
 plt.title('SUS')
-plt.bar(np.arange(len(sus_dataA[11])), sus_dataA[11], width=width, label='Variant A')
-plt.bar(np.arange(len(sus_dataB[11]))+ width, sus_dataB[11], width=width,label='Variant B')
+plt.bar(np.arange(len(sus_dataA[11])), sus_dataA[11], width=width, label='Variant No filter (A)')
+plt.bar(np.arange(len(sus_dataB[11]))+ width, sus_dataB[11], width=width,label='Variant filter (B)')
 plt.xlabel('Participant')
 plt.ylabel('SUS-score')
 plt.legend()
