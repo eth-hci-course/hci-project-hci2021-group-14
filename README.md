@@ -270,3 +270,7 @@ While the SUS-score obtained from ordinal data, since it computes scores from se
 Since variant B turned out to be superior in time taken and SUS-score, and the result for the lostness factor was inconclusive, variant B seems to have preformed better overall. The qualitative feedback seems to confirm this with participants saying they had to waste more time scrolling in variant A and that they really missed having a filtering function in A. It was also suggested that it might be good to have a combination of both approaches.
 
 Study report (pdf) can be found [here](/Deliverables/Study/user_study_report.pdf)
+
+# Walkthrough of final prototype
+The Video of the Walkthrough can be found [here](/Deliverables/walkthrough_final_prototype.mp4)
+
